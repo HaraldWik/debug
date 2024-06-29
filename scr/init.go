@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-const version string = "1.0.4"
+const version string = "1.0.5"
 
 func init() {
 	if Mode {

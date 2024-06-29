@@ -2,7 +2,7 @@ package debug
 
 import "fmt"
 
-const version string = "1.0.0"
+const version string = "1.0.1"
 
 func init() {
 	if Mode {

@@ -11,7 +11,7 @@ const WARNING string = COLOR_ORANGE + "[WARNING]" + COLOR_RESET
 var WarningCount int32
 
 func Warning(text string) {
-	if strings.TrimSpace(text) != "" {
+	if strings.TrimSpace(text) != "" && Mode {
 		fmt.Printf("%s %s%ds-%dm-%dh %d%s %s\n", WARNING, COLOR_GRAY, time.Now().Second(), time.Now().Minute(), time.Now().Hour(), InfoCount, COLOR_RESET, text)
 		WarningCount++
 	}

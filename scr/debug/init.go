@@ -1,11 +1,14 @@
 package debug
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
-const version string = "1.0.1"
+const version string = "1.0.2"
 
 func init() {
 	if Mode {
-		fmt.Printf("Currently using HaraldWik's debug system %s\n", version)
+		fmt.Println(time.Now().Second(), time.Now().Minute(), time.Now().Hour(), time.Now().Day(), "Currently using HaraldWik's debug system", version)
 	}
 }

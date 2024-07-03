@@ -7,7 +7,7 @@ import (
 var infoCount int32
 
 func Info(text string) {
-	if strings.TrimSpace(text) != "" && Mode {
+	if strings.TrimSpace(text) != "" {
 		Print(COLOR_LIGHT_GREEN, infoCount, "[INFO]   ", text)
 		infoCount++
 	}

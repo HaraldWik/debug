@@ -16,5 +16,7 @@ func CurrentTime() string {
 }
 
 func Print(color string, count int32, tYPE string, args interface{}) {
-	fmt.Printf("%s %s{%03d} %s%s %s\n", CurrentTime(), color, count, tYPE, COLOR_RESET, args)
+	if Mode {
+		fmt.Printf("%s %s{%03d} %s%s %s\n", CurrentTime(), color, count, tYPE, COLOR_RESET, args)
+	}
 }

@@ -7,7 +7,7 @@ import (
 var warningCount int32
 
 func Warning(text string) {
-	if strings.TrimSpace(text) != "" && Mode {
+	if strings.TrimSpace(text) != "" {
 		Print(COLOR_ORANGE, warningCount, "[WARNING]", text)
 		warningCount++
 	}

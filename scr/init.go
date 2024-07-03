@@ -2,13 +2,13 @@ package debug
 
 import (
 	"fmt"
-	"time"
 )
 
-const version string = "1.0.5"
+const version string = "1.0.6"
 
 func init() {
 	if Mode {
-		fmt.Println(time.Now().Second(), time.Now().Minute(), time.Now().Hour(), time.Now().Day(), "Currently using HaraldWik's debug system", version)
+		fmt.Println(CurrentTime(), "Currently using HaraldWik's debug system", version)
+		println("\n#########  ########## #########  ###    ###  ########  \n###    ### ###        ###    ### ###    ### ###    ### \n###    ### ###        ###    ### ###    ### ###        \n###    ### ########   #########  ###    ### ###        \n###    ### ###        ###    ### ###    ### ###   #### \n###    ### ###        ###    ### ###    ### ###    ### \n#########  ########## #########   ########   ########  \n")
 	}
 }

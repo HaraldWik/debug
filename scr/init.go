@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-const version string = "1.0.6"
+const version string = "1.0.7"
 
 func init() {
 	if Mode {

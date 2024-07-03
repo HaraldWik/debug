@@ -48,6 +48,7 @@ func main() {
 }
 ```
 ---
-**Visuals***
+**Visuals**
+---
 ![image](https://github.com/HaraldWik/debug/assets/167028112/68819d10-19be-4659-a55e-df4b74c4ba91)
 ---

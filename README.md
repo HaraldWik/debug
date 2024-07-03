@@ -3,7 +3,9 @@
 **Description**
 ---
 Makes debuging easier and prettier!
-
+---
+**Information**
+@[Wiki](https://github.com/HaraldWik/debug/wiki)
 ---
 **Exampels**
 ---
